@@ -1,14 +1,18 @@
-import React from "react";
-import Article from "./Article";
-import Comment from "./Comment";
+import React from 'react';
+import Navbar from './Navbar';
+import Home from './Home';
+import About from './About';
 
 function App() {
-  return (
-    <div>
-      <Article />
-      <Comment />
+ return (
+    <div className="App">
+      <Navbar />
+      <Home />
+      <About />
     </div>
-  );
+ );
 }
 
 export default App;
+
+
